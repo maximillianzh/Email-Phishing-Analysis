@@ -4,10 +4,12 @@ The email in question appears to originate from **alerts@chase.com**, but furthe
 
 ![Sample1](https://github.com/user-attachments/assets/1837b96d-bd4b-4676-9ea7-841b5c3ebd08)<br>
 ![RecievedHeaders](https://github.com/user-attachments/assets/1947ded5-7201-40ab-95c3-01cc8efb80ca)<br>
-By inspecting the raw contents of the email in a text editor such as Sublime Text, we can extract valuable information, including the originating IP address. Using a WHOIS lookup, we find that the IP address is associated with a ProtonMail account based in Switzerland, rather than Chase Bank's servers in the United States. This evidence strongly suggests that the attacker has spoofed the email to appear as though it was sent from Chase, when in fact it was not.
-![EmailHeaderandSenderAnalysis](https://github.com/user-attachments/assets/203378b0-0b37-41f6-9cf9-89ce9d034274)<br>
+
+By inspecting the raw contents of the email in a text editor such as Sublime Text, we can extract valuable information, including the originating IP address. 
 
 ![whoisSample1](https://github.com/user-attachments/assets/4450448d-8040-4287-bb4e-9ebb942d142c)<br>
+
+Using a WHOIS lookup, we find that the IP address is associated with a ProtonMail account based in Switzerland, rather than Chase Bank's servers in the United States. This evidence strongly suggests that the attacker has spoofed the email to appear as though it was sent from Chase, when in fact it was not.
 
 Email 2: CIBC Bank Phishing
 ![Sample2](https://github.com/user-attachments/assets/ff9eff7f-71be-4ab2-80d0-efe9235ea3a8)<br>
