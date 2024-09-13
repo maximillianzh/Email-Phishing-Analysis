@@ -63,9 +63,9 @@ To verify the authenticity of the email, we examine the SPF (Sender Policy Frame
 
 ![sample3 5](https://github.com/user-attachments/assets/1d33d056-3c20-4b43-a0d7-e3946c80aa0e)
 
-Next, we check the email’s integrity using the DKIM-Signature (DomainKeys Identified Mail), which ensures that the email has not been altered during transmission. DKIM attaches a digital signature to the email that can be verified by the receiving server using the sender’s public key. In our case, the DKIM signature for namecheap.com looks correct, which allows us to proceed to the Authentication-Results.
-
 ![sample3 6](https://github.com/user-attachments/assets/27019da3-a240-410f-ad3f-528f18d823fe)
+
+Next, we check the email’s integrity using the DKIM-Signature (DomainKeys Identified Mail), which ensures that the email has not been altered during transmission. DKIM attaches a digital signature to the email that can be verified by the receiving server using the sender’s public key. In our case, the DKIM signature for namecheap.com looks correct, which allows us to proceed to the Authentication-Results.
 
 ![sample3 7](https://github.com/user-attachments/assets/adaf67f9-ad24-42b7-a28e-d23484ca297e)
 
