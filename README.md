@@ -86,15 +86,18 @@ The email also states, “All unverified accounts will be suspended on 10/31/202
 Additionally, “Trustwallet” is spelled incorrectly. The legitimate company spells its name as Trust Wallet, with a space between the words. Small details like this are often overlooked but are telltale signs of phishing.
 
 Here’s another example:
-
-## Email 5: Amazon Phish (Malicious)
+### Email 5: Another Trust Wallet Phish (Malicious)
 
 ![5 1](https://github.com/user-attachments/assets/bfa2cd32-2325-432a-94df-ca07dc96a58c)
+
 The sender stainless@midnightmagicevents.com has no affiliation with Trust Wallet, yet claims to be representing the company.
 
 In the message, the sentence, “Due to the recently update of NFT's & Coins, all unverified accounts will be suspended,” contains multiple grammatical errors. First, "recently update" should be "recent update"; next, “NFT's” incorrectly uses an apostrophe, and the sentence overall is awkwardly phrased. Furthermore, on the next line, the word “assistance” is misspelled, which further weakens the credibility of the email.
 
 Given all of these red flags, you should already be highly suspicious of this email.
+
+## Email 6: Amazon Phish (Malicious)
+![6 1](https://github.com/user-attachments/assets/cbbbb205-3110-4d88-83bd-94c7b9c4d012)
 
 While the content of the email may appear convincing at first glance, even using the real Amazon logo, these signs indicate potential malicious intent. It is essential to look beyond superficial elements and examine the finer details to determine if an email is legitimate or malicious.
 
