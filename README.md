@@ -3,6 +3,7 @@ In this project, I conducted an analysis of email phishing attempts occurring in
 
 ## Email 1: Chase Bank Phishing <br>
 ![image](https://github.com/user-attachments/assets/3abf6a37-c3f1-453c-9129-0b0093acc5c8)<br>
+
 The email in question appears to originate from **alerts@chase.com**, but further investigation is required to determine whether it is a phishing attempt. Upon closer examination, the **"Reply-To"** header raises suspicion as it lists **kellyellin426@proton.me**, an address that does not clearly correspond to Chase Bank.
 
 #### Recieved Headers
