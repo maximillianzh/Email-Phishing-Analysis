@@ -67,10 +67,9 @@ Next, we check the email’s integrity using the DKIM-Signature (DomainKeys Iden
 
 ![sample3 6](https://github.com/user-attachments/assets/27019da3-a240-410f-ad3f-528f18d823fe)
 
-In the Authentication-Results header, we see that all the checks passed: dkim=pass, spf=pass, and dmarc=pass. DMARC (Domain-based Message Authentication, Reporting, and Conformance) is a policy that uses SPF and DKIM results to determine how to handle emails that fail authentication. If any of these checks had failed, the email could have been flagged as suspicious or sent to the recipient’s spam folder.
-
 ![sample3 7](https://github.com/user-attachments/assets/adaf67f9-ad24-42b7-a28e-d23484ca297e)
 
+In the Authentication-Results header, we see that all the checks passed: dkim=pass, spf=pass, and dmarc=pass. DMARC (Domain-based Message Authentication, Reporting, and Conformance) is a policy that uses SPF and DKIM results to determine how to handle emails that fail authentication. If any of these checks had failed, the email could have been flagged as suspicious or sent to the recipient’s spam folder.
 
 After performing all these checks, we conclude that this email is not a phishing attempt and is, in fact, legitimate. However, it's important to note that while passing these checks is a positive sign, it is not a foolproof method of determining legitimacy. Malicious actors can still bypass these defenses, and additional scrutiny is always advised.
 
