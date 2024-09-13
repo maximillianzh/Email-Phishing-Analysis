@@ -1,4 +1,7 @@
-### Email-Phishing-Analysis
+# Email-Phishing-Analysis
+In this project, I conducted an analysis of email phishing attempts occurring in the real world today. This analysis is crucial as it helps identify and mitigate threats posed by malicious actors. By scrutinizing these phishing attempts, we can better understand the tactics used by attackers and develop more effective strategies for combating such threats.
+
+Being able to perform this analysis is valuable because it enhances our ability to recognize and respond to phishing threats in a timely manner. As phishing attacks become increasingly sophisticated, having the skills and tools to dissect and understand these threats is essential for protecting both individuals and organizations from potential harm. Moreover, this analysis contributes to broader cybersecurity efforts by providing insights that can inform preventative measures and improve overall digital security practices.
 ## Email 1: Chase Bank Phishing <br>
 ![image](https://github.com/user-attachments/assets/3abf6a37-c3f1-453c-9129-0b0093acc5c8)<br>
 The email in question appears to originate from **alerts@chase.com**, but further investigation is required to determine whether it is a phishing attempt. Upon closer examination, the **"Reply-To"** header raises suspicion as it lists **kellyellin426@proton.me**, an address that does not clearly correspond to Chase Bank.
