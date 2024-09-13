@@ -72,7 +72,7 @@ In the Authentication-Results header, we see that all the checks passed: dkim=pa
 #### Conclusion
 After performing all these checks, we conclude that this email is not a phishing attempt and is, in fact, legitimate. However, it's important to note that while passing these checks is a positive sign, it is not a foolproof method of determining legitimacy. Malicious actors can still bypass these defenses, and additional scrutiny is always advised.
 
-## Email 4:Trust Wallet Phish (Malicious)
+## Email 4: Trust Wallet Phish (Malicious)
 ![4 1](https://github.com/user-attachments/assets/08359ba6-ba90-45c9-ac48-7d5dd223283b)
 
 In this email, we can already identify signs of potential malicious intent, starting with the sender address, 7wq1vg3kn9woejk4@emails.gorgias.com, which has no connection to Trust Wallet. However, this alone is not sufficient evidence, so we’ll delve deeper into the email’s contents (without clicking any links) to uncover its true intent.
