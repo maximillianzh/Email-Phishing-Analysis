@@ -29,7 +29,8 @@ Using a WHOIS lookup, we find that the IP address associated with the email is l
 5. **Conclusion**: The combination of the spoofed email address and the IP address linked to a ProtonMail account in Switzerland, rather than Chase Bank’s legitimate servers, confirms that the email is a phishing attempt. The attacker’s goal was to impersonate Chase Bank and potentially trick recipients into divulging sensitive information or taking harmful actions.
 
 
-Email 2: CIBC Bank Phishing
+## Email 2: CIBC Bank Phishing
 ![Sample2](https://github.com/user-attachments/assets/ff9eff7f-71be-4ab2-80d0-efe9235ea3a8)<br>
+
 ![SublimeSample2](https://github.com/user-attachments/assets/0cea38df-fa94-4a7a-8d30-ec66157843ea)<br>
 ![WhoisSample2](https://github.com/user-attachments/assets/9838fc30-49df-4afc-be7f-d4aad0c2233e)<br>
