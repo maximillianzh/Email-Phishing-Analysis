@@ -1,7 +1,7 @@
 # Email Phishing Analysis
 In this project, I conducted an analysis of email phishing attempts occurring in the real world today. This analysis is crucial as it helps identify and mitigate threats posed by malicious actors. By scrutinizing these phishing attempts, we can better understand the tactics used by attackers and develop more effective strategies for combating such threats.
 
-## Email 1: Chase Bank Phishing (Malicious) <br>
+## Email 1: Chase Bank Phishing <br>
 ![image](https://github.com/user-attachments/assets/3abf6a37-c3f1-453c-9129-0b0093acc5c8)<br>
 
 The email in question appears to originate from **alerts@chase.com**, but further investigation is required to determine whether it is a phishing attempt. Upon closer examination, the **"Reply-To"** header raises suspicion as it lists **kellyellin426@proton.me**, an address that does not clearly correspond to Chase Bank.
@@ -27,7 +27,7 @@ Using a WHOIS lookup, we find that the IP address associated with the email is l
 5. **Conclusion**: The combination of the spoofed email address and the IP address linked to a ProtonMail account in Switzerland, rather than Chase Bank’s legitimate servers, confirms that the email is a phishing attempt. The attacker’s goal was to impersonate Chase Bank and potentially trick recipients into divulging sensitive information or taking harmful actions.
 
 
-## Email 2: CIBC Phishing (Malicious)
+## Email 2: CIBC Phishing
 ![Sample2 1](https://github.com/user-attachments/assets/fcbcb5c0-c496-4d98-9d7d-e2374aacff0e)<br>
 
 Upon examining the "Sent From" header, we notice that the domain ends in “caib.com”, when it should actually be “cibc.com”, the legitimate domain of CIBC (Canadian Imperial Bank of Commerce), a major financial institution in Canada. This is a common phishing tactic known as typosquatting, where attackers register domain names that closely resemble legitimate ones to deceive recipients.
@@ -72,7 +72,7 @@ In the Authentication-Results header, we see that all the checks passed: dkim=pa
 #### Conclusion
 After performing all these checks, we conclude that this email is not a phishing attempt and is, in fact, legitimate. However, it's important to note that while passing these checks is a positive sign, it is not a foolproof method of determining legitimacy. Malicious actors can still bypass these defenses, and additional scrutiny is always advised.
 
-## Email 4: Trust Wallet Phish (Malicious)
+## Email 4: Trust Wallet Phish
 ![4 1](https://github.com/user-attachments/assets/08359ba6-ba90-45c9-ac48-7d5dd223283b)
 
 In this email, we can already identify signs of potential malicious intent, starting with the sender address, 7wq1vg3kn9woejk4@emails.gorgias.com, which has no connection to Trust Wallet. However, this alone is not sufficient evidence, so we’ll delve deeper into the email’s contents (without clicking any links) to uncover its true intent.
@@ -84,7 +84,7 @@ The email also states, “All unverified accounts will be suspended on 10/31/202
 Additionally, “Trustwallet” is spelled incorrectly. The legitimate company spells its name as Trust Wallet, with a space between the words. Small details like this are often overlooked but are telltale signs of phishing.
 
 Here’s another example:
-## Email 5: Another Trust Wallet Phish (Malicious)
+## Email 5: Another Trust Wallet Phish 
 
 ![5 1](https://github.com/user-attachments/assets/bfa2cd32-2325-432a-94df-ca07dc96a58c)
 
@@ -94,7 +94,7 @@ In the message, the sentence, “Due to the recently update of NFT's & Coins, al
 
 Given all of these red flags, you should already be highly suspicious of this email.
 
-## Email 6: Amazon Phish (Malicious)
+## Email 6: Amazon Phish
 ![6 1](https://github.com/user-attachments/assets/cbbbb205-3110-4d88-83bd-94c7b9c4d012)
 
 While the content of the email may appear convincing at first glance, even using the real Amazon logo, it is essential to look beyond superficial elements and examine the finer details to determine if an email is legitimate or malicious.
