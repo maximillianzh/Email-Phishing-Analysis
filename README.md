@@ -32,5 +32,15 @@ Using a WHOIS lookup, we find that the IP address associated with the email is l
 ## Email 2: CIBC Bank Phishing
 ![image](https://github.com/user-attachments/assets/f1fda7ec-833c-435a-9aa3-8bd88fa883b6)<br>
 
+Upon examining the "Sent From" header, we notice that the domain ends in “caib.com”, when it should actually be “cibc.com”, the legitimate domain of CIBC (Canadian Imperial Bank of Commerce), a major financial institution in Canada. This is a common phishing tactic known as typosquatting, where attackers register domain names that closely resemble legitimate ones to deceive recipients.
+
 ![SublimeSample2](https://github.com/user-attachments/assets/0cea38df-fa94-4a7a-8d30-ec66157843ea)<br>
+
+By analyzing the raw email contents in Sublime Text, we can extract the originating IP address and additional details. In this case, the Return-Path shows meztaz.logocec8@caib.com, which is different from the apparent sender’s address, jsmith@technicalsolutions.com. Further investigation reveals that the email is associated with a Comcast Business IP address, further indicating that the email did not come from CIBC but rather from an unrelated network, reinforcing the conclusion that this is a phishing attempt.
+
+
+#### WHOIS Lookup (website version)
+
 ![WhoisSample2](https://github.com/user-attachments/assets/9838fc30-49df-4afc-be7f-d4aad0c2233e)<br>
+
+If we perform a WHOIS lookup on the original sender’s IP address, 190.6.201.67, we find that it originates from Honduras and is registered to an Internet Service Provider (ISP) called Cablecolor.hn. This information clearly shows that the email did not come from Canada or the legitimate servers of CIBC (Canadian Imperial Bank of Commerce). The geographic and organizational mismatch between the IP address and CIBC's operations strongly suggests this is a phishing attempt, as the actual sender has no connection to the bank.
