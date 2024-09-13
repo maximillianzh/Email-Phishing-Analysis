@@ -45,9 +45,11 @@ By analyzing the raw email contents in Sublime Text, we can extract the originat
 If we perform a WHOIS lookup on the original sender’s IP address, 190.6.201.67, we find that it originates from Honduras and is registered to an Internet Service Provider (ISP) called Cablecolor.hn. This information clearly shows that the email did not come from Canada or the legitimate servers of CIBC (Canadian Imperial Bank of Commerce). The geographic and organizational mismatch between the IP address and CIBC's operations strongly suggests this is a phishing attempt, as the actual sender has no connection to the bank.
 
 ## Email 3: Namecheap (Harmless)
-![Sample3 1](https://github.com/user-attachments/assets/9ebca503-6020-47f6-9515-4efb740b40cf)
+![sample3 05](https://github.com/user-attachments/assets/8a9947c5-c8c8-4a92-8d74-b9d73c88288f)
 
 This email appears to be from Namecheap.com, a popular domain registrar and web hosting provider. The subject line creates a sense of urgency, warning that our website will "expire in 7 days."
+
+![Sample3 1](https://github.com/user-attachments/assets/9ebca503-6020-47f6-9515-4efb740b40cf)
 
 ![Sample3 2](https://github.com/user-attachments/assets/36795020-9e17-4d6c-882c-b08acdb20a30)
 
