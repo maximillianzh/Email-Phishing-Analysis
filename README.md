@@ -30,7 +30,7 @@ Using a WHOIS lookup, we find that the IP address associated with the email is l
 
 
 ## Email 2: CIBC Bank Phishing
-![image](https://github.com/user-attachments/assets/7efa05cb-e2a0-4bd0-8c58-28a39839a79e)<br>
+![Sample2 1](https://github.com/user-attachments/assets/fcbcb5c0-c496-4d98-9d7d-e2374aacff0e)<br>
 
 Upon examining the "Sent From" header, we notice that the domain ends in “caib.com”, when it should actually be “cibc.com”, the legitimate domain of CIBC (Canadian Imperial Bank of Commerce), a major financial institution in Canada. This is a common phishing tactic known as typosquatting, where attackers register domain names that closely resemble legitimate ones to deceive recipients.
 
