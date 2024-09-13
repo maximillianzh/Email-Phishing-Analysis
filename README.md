@@ -1,4 +1,4 @@
-# Email-Phishing-Analysis
+# Email Phishing Analysis
 In this project, I conducted an analysis of email phishing attempts occurring in the real world today. This analysis is crucial as it helps identify and mitigate threats posed by malicious actors. By scrutinizing these phishing attempts, we can better understand the tactics used by attackers and develop more effective strategies for combating such threats.
 
 ## Email 1: Chase Bank Phishing <br>
