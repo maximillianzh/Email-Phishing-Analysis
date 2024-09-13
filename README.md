@@ -30,7 +30,7 @@ Using a WHOIS lookup, we find that the IP address associated with the email is l
 
 
 ## Email 2: CIBC Bank Phishing
-![Sample2](https://github.com/user-attachments/assets/ff9eff7f-71be-4ab2-80d0-efe9235ea3a8)<br>
+![image](https://github.com/user-attachments/assets/f1fda7ec-833c-435a-9aa3-8bd88fa883b6)<br>
 
 ![SublimeSample2](https://github.com/user-attachments/assets/0cea38df-fa94-4a7a-8d30-ec66157843ea)<br>
 ![WhoisSample2](https://github.com/user-attachments/assets/9838fc30-49df-4afc-be7f-d4aad0c2233e)<br>
