@@ -74,4 +74,29 @@ In the Authentication-Results header, we see that all the checks passed: dkim=pa
 #### Conclusion
 After performing all these checks, we conclude that this email is not a phishing attempt and is, in fact, legitimate. However, it's important to note that while passing these checks is a positive sign, it is not a foolproof method of determining legitimacy. Malicious actors can still bypass these defenses, and additional scrutiny is always advised.
 
+## Email 4:Trust Wallet Phish (Malicious)
+![4 1](https://github.com/user-attachments/assets/08359ba6-ba90-45c9-ac48-7d5dd223283b)
+
+In this email, we can already identify signs of potential malicious intent, starting with the sender address, 7wq1vg3kn9woejk4@emails.gorgias.com, which has no connection to Trust Wallet. However, this alone is not sufficient evidence, so we’ll delve deeper into the email’s contents (without clicking any links) to uncover its true intent.
+
+First, the greeting “Hello; Customer” is unusual and not typical of a legitimate company, which would normally address the recipient by name. This vague salutation is a common phishing tactic.
+
+The email also states, “All unverified accounts will be suspended on 10/31/2022,” creating a sense of urgency. This is a classic phishing strategy designed to scare recipients into acting quickly, especially when financial loss is implied. When dealing with matters of money, people are more prone to make hasty decisions out of fear.
+
+Additionally, “Trustwallet” is spelled incorrectly. The legitimate company spells its name as Trust Wallet, with a space between the words. Small details like this are often overlooked but are telltale signs of phishing.
+
+Here’s another example:
+
+## Email 5: Amazon Phish (Malicious)
+
+![5 1](https://github.com/user-attachments/assets/bfa2cd32-2325-432a-94df-ca07dc96a58c)
+The sender stainless@midnightmagicevents.com has no affiliation with Trust Wallet, yet claims to be representing the company.
+
+In the message, the sentence, “Due to the recently update of NFT's & Coins, all unverified accounts will be suspended,” contains multiple grammatical errors. First, "recently update" should be "recent update"; next, “NFT's” incorrectly uses an apostrophe, and the sentence overall is awkwardly phrased. Furthermore, on the next line, the word “assistance” is misspelled, which further weakens the credibility of the email.
+
+Given all of these red flags, you should already be highly suspicious of this email.
+
+While the content of the email may appear convincing at first glance, even using the real Amazon logo, these signs indicate potential malicious intent. It is essential to look beyond superficial elements and examine the finer details to determine if an email is legitimate or malicious.
+
+
 
