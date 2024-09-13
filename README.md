@@ -99,7 +99,7 @@ Given all of these red flags, you should already be highly suspicious of this em
 ## Email 6: Amazon Phish (Malicious)
 ![6 1](https://github.com/user-attachments/assets/cbbbb205-3110-4d88-83bd-94c7b9c4d012)
 
-While the content of the email may appear convincing at first glance, even using the real Amazon logo, these signs indicate potential malicious intent. It is essential to look beyond superficial elements and examine the finer details to determine if an email is legitimate or malicious.
+While the content of the email may appear convincing at first glance, even using the real Amazon logo, it is essential to look beyond superficial elements and examine the finer details to determine if an email is legitimate or malicious.
 
 
 
