@@ -21,6 +21,7 @@ Using a WHOIS lookup, we find that the IP address associated with the email is l
 To analyze the link behind a button in a suspected phishing email, one option is to open the email in a text editor and use the "Ctrl+F" or "Command+F" function to search for "http." This will display all the links within the email, allowing us to examine them without actually clicking on them. **It is crucial not to click any links directly from a suspected phishing email**, as doing so could potentially expose your system to malicious sites or downloads.
 
 ![1 2](https://github.com/user-attachments/assets/c2bbe482-cbb5-4455-9fce-5d4caf757752)
+![1 3](https://github.com/user-attachments/assets/ace1fac8-ecba-48c9-bf9b-790489e18f44)
 
 A safer and more effective way to analyze URLs from phishing emails is by using tools like **CyberChef**. Here's the process:
 
