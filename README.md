@@ -14,6 +14,29 @@ By inspecting the raw contents of the email in a text editor such as Sublime Tex
 
 Using a WHOIS lookup, we find that the IP address associated with the email is linked to a ProtonMail account based in Switzerland, rather than Chase Bank's servers in the United States. This evidence strongly suggests that the email has been spoofed.
 
+### URL Analysis 
+
+![1 1](https://github.com/user-attachments/assets/f793f604-28ed-4682-9fef-22efebe71889)
+
+To analyze the link behind a button in a suspected phishing email, one option is to open the email in a text editor and use the "Ctrl+F" or "Command+F" function to search for "http." This will display all the links within the email, allowing us to examine them without actually clicking on them. **It is crucial not to click any links directly from a suspected phishing email**, as doing so could potentially expose your system to malicious sites or downloads.
+
+![1 2](https://github.com/user-attachments/assets/c2bbe482-cbb5-4455-9fce-5d4caf757752)
+
+A safer and more effective way to analyze URLs from phishing emails is by using tools like **CyberChef**. Here's the process:
+
+1. **From Quoted Printable**: Many phishing emails encode their content in a format called "quoted-printable," which converts special characters into a format that can be transmitted over email without issues. The "From Quoted Printable" operation in CyberChef converts these encoded characters back into their normal, readable form.
+
+2. **Extract URL**: After decoding the email contents, the "Extract URL" operation scans the email and extracts all URLs embedded in the message. This makes it easy to find and analyze links without needing to manually search for them.
+
+3. **Defang URL**: Once the URLs are extracted, it's important to "defang" them. Defanging a URL means altering the link so that it cannot be clicked or executed accidentally. For example, "http://" could be changed to "hxxp://" or dots could be replaced with "[.]" to ensure the URL doesn’t function when clicked. This adds a layer of safety when working with potentially harmful links.
+
+![1 5](https://github.com/user-attachments/assets/4a55af7f-24ee-4801-b59f-1bd635ebec68)
+
+We can also use websites for analysis. One powerful tool for this is **VirusTotal.com**, where you can paste the extracted links and scan them using multiple antivirus engines. VirusTotal will analyze the URL across its database and report back whether it’s considered malicious or safe.
+
+**In our case, after pasting the URL into VirusTotal**, the result shows that the link is flagged as **malicious**. This confirms that the email contains dangerous content and reinforces the importance of analyzing links before interacting with them.
+
+
 **How Email Spoofing Occurs**:
 
 1. **Spoofed Email Address**: The attacker creates an email using a service like ProtonMail but manipulates the “From” address field in the email header to display `alerts@chase.com`. This manipulation makes the email appear as though it originates from Chase Bank, despite being sent from a completely different server.
