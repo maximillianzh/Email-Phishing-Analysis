@@ -14,7 +14,7 @@ By inspecting the raw contents of the email in a text editor such as Sublime Tex
 
 Using a WHOIS lookup, we find that the IP address associated with the email is linked to a ProtonMail account based in Switzerland, rather than Chase Bank's servers in the United States. This evidence strongly suggests that the email has been spoofed.
 
-### URL Analysis 
+## URL Analysis 
 
 ![1 1](https://github.com/user-attachments/assets/f793f604-28ed-4682-9fef-22efebe71889)
 
