@@ -188,7 +188,7 @@ Using the **Didier Stevens Suite** tool, specifically `pdf-parser.py`, we can pa
 #### Virus Total
 ![9 3](https://github.com/user-attachments/assets/a1c45054-3016-43fc-bb99-9c9f671854ee)
 
-To assess the credibility of this link, we searched it on **VirusTotal**, a service that aggregates the results from multiple antivirus engines. The analysis confirms that the link is part of a phishing attempt associated with the **Amazon_Statement.pdf**.
+To assess the credibility of this link, we searched it on **VirusTotal**, a service that aggregates the results from multiple antivirus engines. The analysis confirms that the link is part of a phishing attempt associated with the **Amazon Statement.pdf**.
 
 ### Conclusion
 
