@@ -50,6 +50,21 @@ We can also use websites for analysis. One powerful tool for this is **VirusTota
 
 **In our case, after pasting the URL into VirusTotal**, the result shows that the link is flagged as **malicious**. This confirms that the email contains dangerous content and reinforces the importance of analyzing links before interacting with them.
 
+## Automated Email Analysis with PhishTool
+
+**PhishTool** is a web-based platform designed to streamline the process of phishing email analysis by aggregating key details in a single, user-friendly interface. It simplifies the identification of potentially malicious content, helping security analysts quickly assess threats without manually reviewing email components.
+
+In this example, we’ve opened a **Chase Bank phishing email** in PhishTool. The tool immediately flags several suspicious elements:
+![10 1](https://github.com/user-attachments/assets/da7ebb52-a62f-4498-be3f-36d1ed6815f2)
+
+![10 2](https://github.com/user-attachments/assets/1eb236b2-4261-4120-8eb9-5a88ea0fa873)
+
+- **Headers**: The `Reply-To` and `Return-Path` headers are marked as suspicious because they are inconsistent with the `From` address (alerts@chase.com). This discrepancy is a common indicator of phishing attempts.
+- **DMARC Fail**: PhishTool detects that the email has failed DMARC (Domain-based Message Authentication, Reporting & Conformance), which suggests an attempt to spoof the legitimate Chase domain.
+
+Overall, PhishTool excels at automating email analysis by consolidating all critical information into one platform, making it easier to detect threats without the need for manual investigation.
+
+
 ## Email 2: CIBC Phishing
 ![Sample2 1](https://github.com/user-attachments/assets/fcbcb5c0-c496-4d98-9d7d-e2374aacff0e)<br>
 
