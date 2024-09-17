@@ -210,3 +210,30 @@ To assess the credibility of this link, we searched it on **VirusTotal**, a serv
 
 The "Verify Now" button is clearly part of a phishing scheme, aiming to lure users into clicking a malicious link. Tools like VirusTotal and Didier Stevens Suite are essential in identifying these threats before any harm can be done.
 
+## Phishing Response Playbook
+
+When responding to phishing attempts, it’s crucial to have a structured playbook in place. While specific steps may vary between organizations, the general structure remains consistent. Here’s a comprehensive approach:
+
+#### 1. Containment
+- **Determine Scope**: Assess the extent of the phishing attempt, including the number of affected users and systems.
+- **Quarantine**: Isolate the impacted emails, files, and systems to prevent further spread of the threat.
+- **Block Sender Artifacts**: Block email addresses or domains associated with the phishing attempt.
+- **Block Web Artifacts**: Block URLs or domains linked to malicious web content.
+- **Block File Artifacts**: Block or remove any files associated with the phishing attempt.
+
+#### 2. Eradication
+- **Remove Malicious Emails**: Delete phishing emails from all affected mailboxes.
+- **Content Search and eDiscovery**: Perform searches for related content to ensure no additional phishing artifacts remain.
+- **Remove Malicious Files**: Delete any malicious files from affected systems.
+- **Abuse Form Submissions**: Submit abuse reports to relevant platforms (e.g., email providers, web hosting services).
+- **Credential Changes**: Change passwords and credentials that may have been compromised.
+- **Reimaging**: Reimage affected systems if necessary to ensure complete removal of the threat.
+
+#### 3. Recovery
+- **Restore Systems**: Restore systems from clean backups to ensure they are free from malware.
+- **Communication**:
+  - **Notify Affected Users**: Inform users who may have been impacted by the phishing attempt.
+  - **Update Stakeholders**: Keep relevant stakeholders informed about the incident and response actions.
+
+#### 4. User Education
+- **End-User Training**: Provide training and awareness programs to educate users on recognizing and avoiding phishing attempts.
