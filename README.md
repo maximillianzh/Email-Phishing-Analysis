@@ -175,4 +175,21 @@ To analyze this malware, we are using a sandbox tool called **Hybrid Analysis**.
 
 From our scan, we observed that **CrowdStrike Falcon**, an advanced threat detection platform, identified the file as **100% malicious**. This means the file is confirmed to be dangerous and capable of executing harmful actions, such as delivering malware or establishing backdoors.
 
+## Static PDF Analysis
+![9 1](https://github.com/user-attachments/assets/bd7d54ca-17f8-4f9b-9e0e-4d84e6f7930e)
+
+In this example, we are analyzing a file named **Amazon_Statement.pdf** that prompts the user to click a “Verify Now” button. This is a common phishing tactic designed to trick users into interacting with malicious links. To investigate further, we need to examine what lies behind the button.
+
+![9 2](https://github.com/user-attachments/assets/17d00ae5-c74b-4b11-abc6-7a8229b7839d)
+
+Using the **Didier Stevens Suite** tool, specifically `pdf-parser.py`, we can parse and analyze the PDF file. Our scan reveals that the "Verify Now" button is linked to a suspicious URL: a `script.google.com` link.
+
+#### Virus Total
+![9 3](https://github.com/user-attachments/assets/a1c45054-3016-43fc-bb99-9c9f671854ee)
+
+To assess the credibility of this link, we searched it on **VirusTotal**, a service that aggregates the results from multiple antivirus engines. The analysis confirms that the link is part of a phishing attempt associated with the **Amazon_Statement.pdf**.
+
+### Conclusion
+
+The "Verify Now" button is clearly part of a phishing scheme, aiming to lure users into clicking a malicious link. Tools like VirusTotal and Didier Stevens Suite are essential in identifying these threats before any harm can be done.
 
