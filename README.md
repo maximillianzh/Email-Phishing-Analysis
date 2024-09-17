@@ -180,6 +180,7 @@ From our scan, we observed that **CrowdStrike Falcon**, an advanced threat detec
 
 In this example, we are analyzing a file named **Amazon_Statement.pdf** that prompts the user to click a “Verify Now” button. This is a common phishing tactic designed to trick users into interacting with malicious links. To investigate further, we need to examine what lies behind the button.
 
+#### Parsing the PDF
 ![9 2](https://github.com/user-attachments/assets/17d00ae5-c74b-4b11-abc6-7a8229b7839d)
 
 Using the **Didier Stevens Suite** tool, specifically `pdf-parser.py`, we can parse and analyze the PDF file. Our scan reveals that the "Verify Now" button is linked to a suspicious URL: a `script.google.com` link.
