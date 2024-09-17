@@ -162,13 +162,13 @@ The vulnerability, also known as the "Microsoft Office/WordPad Remote Code Execu
 
 To analyze this malware, we are using a sandbox tool called **Hybrid Analysis**.
 
+![8 1](https://github.com/user-attachments/assets/5574f0a6-607b-40e9-be0e-3c00fe0817c4)
+
 #### What is Sandboxing?
 
 **Sandboxing** is a method of running code in an isolated environment to safely observe its behavior without affecting the host system. This is crucial for malware analysis as it allows analysts to execute potentially dangerous files and study their impact in a controlled environment.
 
 #### What is Hybrid Analysis?
-![8 1](https://github.com/user-attachments/assets/5574f0a6-607b-40e9-be0e-3c00fe0817c4)
-
 **Hybrid Analysis** is a cloud-based sandboxing tool that allows for deep inspection of potentially malicious files. It automates the process of running and analyzing malware, providing detailed reports on how the file interacts with the system. This can help identify harmful behavior, such as file modifications, network connections, and attempts to execute code.
 
 #### Results
