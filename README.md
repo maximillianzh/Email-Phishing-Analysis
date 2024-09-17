@@ -122,5 +122,30 @@ Given all of these red flags, you should already be highly suspicious of this em
 
 While the content of the email may appear convincing at first glance, even using the real Amazon logo, it is essential to look beyond superficial elements and examine the finer details to determine if an email is legitimate or malicious.
 
+## Email 7: Invoice (Trojan)
+![7 1](https://github.com/user-attachments/assets/979119e8-5809-4824-849a-33c545378a56)
+
+In this email, the subject references a pending invoice payment, and the supposed invoice is included as an attachment. However, instead of a standard document format, the attachment is an ISO file, which raises immediate red flags. Opening an ISO file from an unsolicited email is dangerous and a common tactic used in phishing attempts. ISO files can contain executable files or malicious scripts, which, when mounted, could infect your system with malware.
+
+I have downloaded the ISO file to my machine but have not opened it. Instead, it will be analyzed further.
+
+### Extracting Hash Values
+![7 2](https://github.com/user-attachments/assets/af59b285-ae73-49cd-9a1b-c6f06f252be9)
+
+The next step is to extract the hash values of the attached file. This is a crucial part of phishing and malware analysis for several reasons:
+
+- **Unique Identification**: Hash values serve as unique fingerprints for files, enabling quick identification and comparison across various sources.
+- **Malware Detection**: Extracted hashes can be checked against known malware databases to determine if the file is already classified as a threat.
+- **Tracking and Reporting**: Hash values aid in tracking the distribution of malicious files and facilitate reporting to security communities and antivirus vendors.
+- **Integrity Verification**: Hashes help verify if a file has been altered, which is critical for forensic analysis.
+
+Using the `eioc.py` tool, I extracted the MD5, SHA1, and SHA256 hash values. These algorithms provide different levels of security, with SHA256 being the most robust.
+
+### VirusTotal Analysis
+![7 3](https://github.com/user-attachments/assets/d662d988-9627-4766-800e-f2ef26d049ca)
+
+Next, I used the SHA256 hash to submit the `quotation.iso` file to VirusTotal for further analysis. VirusTotal flagged the file as a **Trojan**.
+
+A **Trojan** is a type of malware disguised as legitimate software. Once executed, it can perform harmful actions like stealing sensitive data, creating backdoors, or allowing unauthorized access to your system.
 
 
