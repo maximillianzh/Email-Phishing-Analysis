@@ -55,6 +55,7 @@ We can also use websites for analysis. One powerful tool for this is **VirusTota
 **PhishTool** is a web-based platform designed to streamline the process of phishing email analysis by aggregating key details in a single, user-friendly interface. It simplifies the identification of potentially malicious content, helping security analysts quickly assess threats without manually reviewing email components.
 
 In this example, we’ve opened a **Chase Bank phishing email** in PhishTool. The tool immediately flags several suspicious elements:
+
 ![10 1](https://github.com/user-attachments/assets/da7ebb52-a62f-4498-be3f-36d1ed6815f2)
 
 ![10 2](https://github.com/user-attachments/assets/1eb236b2-4261-4120-8eb9-5a88ea0fa873)
