@@ -237,3 +237,31 @@ When responding to phishing attempts, it’s crucial to have a structured playbo
 
 #### 4. User Education
 - **End-User Training**: Provide training and awareness programs to educate users on recognizing and avoiding phishing attempts.
+  
+## Proactive Phishing Defense
+
+To effectively combat phishing threats, implementing proactive defense measures is crucial. Here’s a comprehensive approach:
+
+#### 1. Email Filtering
+- **Email Security Appliances**: Utilize dedicated security appliances to filter and analyze incoming emails for malicious content.
+- **Mark External Emails**: Identify and tag emails from external sources to alert users to potential risks.
+
+#### 2. URL Scanning and Blocking
+- **Real-Time URL Inspection**: Continuously analyze URLs in emails for malicious behavior or links to phishing sites.
+- **Block Recently Registered Domains**: Prevent access to domains that have been recently registered, which are often used for phishing.
+
+#### 3. Attachment Filtering
+- **File Extension Blocks**: Block or quarantine emails with attachments that have known malicious file extensions.
+
+#### 4. Email Authentication Methods
+- **SPF (Sender Policy Framework)**: Verify the sender’s IP address to ensure it is authorized to send emails on behalf of the domain.
+- **DKIM (DomainKeys Identified Mail)**: Authenticate email messages to confirm they have not been altered in transit.
+- **DMARC (Domain-based Message Authentication, Reporting & Conformance)**: Implement policies to handle emails that fail SPF or DKIM checks and receive reports on email authentication.
+
+#### 5. User Training
+- **Security Awareness Training**: Educate users on recognizing phishing attempts and understanding security best practices.
+- **Phishing Simulation Exercises**: Conduct simulated phishing attacks to test and improve user response and awareness.
+
+#### 6. Reporting Functionality
+- **Reporting Tools**: Implement tools and processes that allow users to easily report suspected phishing emails for further investigation.
+
