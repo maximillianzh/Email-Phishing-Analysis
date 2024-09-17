@@ -139,7 +139,7 @@ The next step is to extract the hash values of the attached file. This is a cruc
 - **Tracking and Reporting**: Hash values aid in tracking the distribution of malicious files and facilitate reporting to security communities and antivirus vendors.
 - **Integrity Verification**: Hashes help verify if a file has been altered, which is critical for forensic analysis.
 
-Using the `eioc.py` tool, I extracted the MD5, SHA1, and SHA256 hash values. These algorithms provide different levels of security, with SHA256 being the most robust.
+Using the `eioc.py` tool from MalwareCube / Email-IOC-Extractor, I extracted the MD5, SHA1, and SHA256 hash values. These algorithms provide different levels of security, with SHA256 being the most robust.
 
 ### VirusTotal Analysis
 ![7 3](https://github.com/user-attachments/assets/d662d988-9627-4766-800e-f2ef26d049ca)
