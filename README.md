@@ -133,12 +133,7 @@ In the message, the sentence, “Due to the recently update of NFT's & Coins, al
 
 Given all of these red flags, you should already be highly suspicious of this email.
 
-## Email 6: Amazon Phish
-![6 1](https://github.com/user-attachments/assets/cbbbb205-3110-4d88-83bd-94c7b9c4d012)
-
-While the content of the email may appear convincing at first glance, even using the real Amazon logo, it is essential to look beyond superficial elements and examine the finer details to determine if an email is legitimate or malicious.
-
-## Email 7: Invoice (Trojan)
+## Email 6: Invoice (Trojan)
 ![7 1](https://github.com/user-attachments/assets/979119e8-5809-4824-849a-33c545378a56)
 
 In this email, the subject references a pending invoice payment, and the supposed invoice is included as an attachment. However, instead of a standard document format, the attachment is an ISO file, which raises immediate red flags. Opening an ISO file from an unsolicited email is dangerous and a common tactic used in phishing attempts. ISO files can contain executable files or malicious scripts, which, when mounted, could infect your system with malware.
