@@ -148,4 +148,33 @@ Next, I used the SHA256 hash to submit the `quotation.iso` file to VirusTotal fo
 
 A **Trojan** is a type of malware disguised as legitimate software. Once executed, it can perform harmful actions like stealing sensitive data, creating backdoors, or allowing unauthorized access to your system.
 
+## Dynamic Attachment Analysis and Sandboxing
+
+#### Malware Analysis
+
+In this analysis, we will examine malware related to **CVE-2017-0199**, a critical vulnerability affecting multiple versions of Microsoft Office and Windows operating systems. This vulnerability allows remote attackers to execute arbitrary code via a specially crafted document. Specifically, it impacts:
+
+- Microsoft Office 2007 SP3, Office 2010 SP2, Office 2013 SP1, and Office 2016
+- Windows Vista SP2, Windows 7 SP1, Windows 8.1, and Windows Server 2008 SP2
+
+The vulnerability, also known as the "Microsoft Office/WordPad Remote Code Execution Vulnerability w/Windows API," can be exploited to execute harmful code on the victim's machine.
+
+To analyze this malware, we are using a sandbox tool called **Hybrid Analysis**.
+
+#### What is Sandboxing?
+
+**Sandboxing** is a method of running code in an isolated environment to safely observe its behavior without affecting the host system. This is crucial for malware analysis as it allows analysts to execute potentially dangerous files and study their impact in a controlled environment.
+
+#### What is Hybrid Analysis?
+![8 1](https://github.com/user-attachments/assets/5574f0a6-607b-40e9-be0e-3c00fe0817c4)
+
+**Hybrid Analysis** is a cloud-based sandboxing tool that allows for deep inspection of potentially malicious files. It automates the process of running and analyzing malware, providing detailed reports on how the file interacts with the system. This can help identify harmful behavior, such as file modifications, network connections, and attempts to execute code.
+
+#### Results
+![8 2](https://github.com/user-attachments/assets/50839764-5df1-489f-9a4d-db4efc4c97f9)
+
+![8 3](https://github.com/user-attachments/assets/aae31e49-669e-4613-82ce-09c9502cddc6)
+
+From our scan, we observed that **CrowdStrike Falcon**, an advanced threat detection platform, identified the file as **100% malicious**. This means the file is confirmed to be dangerous and capable of executing harmful actions, such as delivering malware or establishing backdoors.
+
 
