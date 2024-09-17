@@ -151,6 +151,7 @@ A **Trojan** is a type of malware disguised as legitimate software. Once execute
 ## Dynamic Attachment Analysis and Sandboxing
 
 #### Malware Analysis
+![8 2](https://github.com/user-attachments/assets/50839764-5df1-489f-9a4d-db4efc4c97f9)
 
 In this analysis, we will examine malware related to **CVE-2017-0199**, a critical vulnerability affecting multiple versions of Microsoft Office and Windows operating systems. This vulnerability allows remote attackers to execute arbitrary code via a specially crafted document. Specifically, it impacts:
 
@@ -171,8 +172,6 @@ To analyze this malware, we are using a sandbox tool called **Hybrid Analysis**.
 **Hybrid Analysis** is a cloud-based sandboxing tool that allows for deep inspection of potentially malicious files. It automates the process of running and analyzing malware, providing detailed reports on how the file interacts with the system. This can help identify harmful behavior, such as file modifications, network connections, and attempts to execute code.
 
 #### Results
-![8 2](https://github.com/user-attachments/assets/50839764-5df1-489f-9a4d-db4efc4c97f9)
-
 ![8 3](https://github.com/user-attachments/assets/aae31e49-669e-4613-82ce-09c9502cddc6)
 
 From our scan, we observed that **CrowdStrike Falcon**, an advanced threat detection platform, identified the file as **100% malicious**. This means the file is confirmed to be dangerous and capable of executing harmful actions, such as delivering malware or establishing backdoors.
